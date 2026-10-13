@@ -1,3 +1,7 @@
 # raw SWE-Zero-openhands-trajectories dataset, ~12GB, ~318k rows
-data/.DS_Store
+data/*
+!data/eda_results/
+!data/eda_results/*
+
+.DS_Store
 .venv/
