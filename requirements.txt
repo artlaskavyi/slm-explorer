@@ -1,0 +1,20 @@
+# Python 3.12.
+
+# preprocessing (scripts/preprocessing)
+pandas==3.0.6
+pyarrow==26.0.0
+transformers==5.20.1
+jinja2==3.1.6
+
+# EDA (notebooks/eda.py)
+numpy==2.5.4
+tiktoken==0.14.0
+matplotlib
+seaborn
+
+# SWE-Explore baselines (scripts/eval); typer is imported by the official bm25 explorer
+huggingface_hub==2.2.0
+rank-bm25==0.2.2
+typer==0.27.3
+scikit-learn
+model2vec
