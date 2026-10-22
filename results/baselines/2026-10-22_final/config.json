@@ -1,0 +1,72 @@
+{
+ "index": "full",
+ "methods": [
+  "random",
+  "oracle",
+  "bm25",
+  "tfidf",
+  "potion",
+  "mentioned"
+ ],
+ "top_k": [
+  5,
+  10,
+  20
+ ],
+ "core_multipliers": [
+  1,
+  1.5,
+  2,
+  3
+ ],
+ "line_budgets": [],
+ "regions_requested": 1000,
+ "tasks": 848,
+ "datasets": "all",
+ "chunk_size": 80,
+ "chunk_overlap": 20,
+ "max_chunks": 1000000000,
+ "indexed_files": [
+  ".c",
+  ".cc",
+  ".cfg",
+  ".cpp",
+  ".cs",
+  ".go",
+  ".h",
+  ".hpp",
+  ".ini",
+  ".java",
+  ".js",
+  ".json",
+  ".jsx",
+  ".kt",
+  ".m",
+  ".md",
+  ".php",
+  ".py",
+  ".pyi",
+  ".rb",
+  ".rs",
+  ".rst",
+  ".scala",
+  ".swift",
+  ".toml",
+  ".ts",
+  ".tsx",
+  ".txt",
+  ".yaml",
+  ".yml"
+ ],
+ "skip_dirs": [
+  "__pycache__",
+  "build",
+  "dist",
+  "node_modules",
+  "vendor"
+ ],
+ "max_file_bytes": 1000000,
+ "bm25_tokens": "identifiers, lowercase",
+ "random": "80-line windows from random source files, seed 42:<instance_id>",
+ "issue_text": "problem_statement from SWE-bench Verified / Pro / Multilingual"
+}

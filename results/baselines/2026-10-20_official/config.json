@@ -1,0 +1,17 @@
+{
+ "index": "official",
+ "methods": ["random", "oracle", "bm25", "tfidf", "potion", "mentioned"],
+ "top_k": [5, 10, 20],
+ "line_budgets": [],
+ "regions_requested": 20,
+ "tasks": 848,
+ "datasets": "all",
+ "chunk_size": 80,
+ "chunk_overlap": 20,
+ "max_chunks": 3000,
+ "indexed_files": "official chunking.EXTS (.py and docs)",
+ "bm25_tokens": "whitespace (official)",
+ "random": "official RandomExplorer: ground-truth regions of the whole benchmark, seed 42",
+ "issue_text": "problem_statement from SWE-bench Verified / Pro / Multilingual",
+ "notes": "First version of run_baselines.py: summary column `k` instead of `cutoff`; n_lines is the sum of region lengths (not unique lines); no n_tokens or index_chunks. Used to reproduce Table 6 of the paper (K=5)."
+}
