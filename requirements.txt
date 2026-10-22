@@ -12,7 +12,7 @@ tiktoken==0.14.0
 matplotlib
 seaborn
 
-# SWE-Explore baselines (scripts/eval); typer is imported by the official bm25 explorer
+# SWE-Explore baselines (scripts/eval)
 huggingface_hub==2.2.0
 rank-bm25==0.2.2
 typer==0.27.3
